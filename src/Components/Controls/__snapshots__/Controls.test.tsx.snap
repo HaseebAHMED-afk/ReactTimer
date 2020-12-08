@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls Test Cases renders controls component 1`] = `
+<div
+  className="controls-container"
+>
+  <button
+    data-testid="btn-play"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Play
+  </button>
+  <button
+    data-testid="btn-stop"
+    onClick={[Function]}
+  >
+    Stop
+  </button>
+  <button
+    data-testid="btn-reset"
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+</div>
+`;
