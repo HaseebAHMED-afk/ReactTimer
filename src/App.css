@@ -1,8 +1,23 @@
+body{
+  background-color: black;
+}
 .App {
   text-align: center;
   padding: 150px;
 }
 .main-heading{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(58, 58, 57);
+  color: rgb(255, 255, 255);
+  font-size: 5ch;
+}
+.timer{
+  margin: 25px ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+}
+button{
+  margin: 25px 30px;
+  width: 75px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 30px;
 }
