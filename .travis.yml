@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+ - "stable"
+
+cache:
+  dependencies:
+    node_modules
+
+script:
+  - npm install
+  - npm run test
+  - npm install -g surge
+  - npm run build
+
+deploy:
+  provider: surge
+  cleanup: false
+  domain: reacttimerbyhaseebahmed.surge.sh
+  project: ./build
+
+on:
+  branch: master
